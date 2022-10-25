@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Warn: no test specified\" && exit 1",
     "eslint": "eslint \"**/*.js\"",
     "eslint:fix": "eslint \"**/*.js\" --fix",
     "prettier": "prettier --check .",
@@ -17,6 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-sonarjs": "^0.16.0",
     "husky": "^8.0.1",
     "prettier": "^2.7.1"
