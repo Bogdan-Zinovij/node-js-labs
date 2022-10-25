@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node ./index.js",
+    "start": "node ./src/index.js",
     "test": "echo \"Warn: no test specified\" && exit 0",
     "eslint": "eslint \"**/*.js\"",
     "eslint:fix": "eslint \"**/*.js\" --fix",
