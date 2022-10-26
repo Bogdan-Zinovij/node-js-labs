@@ -6,8 +6,8 @@
   "plugins": ["sonarjs", "prettier"],
   "extends": [
     "eslint:recommended",
-    "plugin:prettier/recommended",
-    "plugin:sonarjs/recommended"
+    "plugin:sonarjs/recommended",
+    "plugin:prettier/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 2020,
